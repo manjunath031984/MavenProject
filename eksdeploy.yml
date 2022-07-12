@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: my-app
-        image: 647952331044.dkr.ecr.ap-south-1.amazonaws.com/pipeline:latest
+        image: 647952331044.dkr.ecr.ap-south-1.amazonaws.com/my-docker-repo:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
